@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AssecoApp</string>
+    <string name="add_classification">Add Classification</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="sort_by">Sort by...</string>
+    <string name="customer">Customer</string>
+    <string name="clasification">Classification</string>
+    <string name="date">Date</string>
+    <string name="add_customer_dot">Add customer...</string>
+    <string name="name">Name</string>
+    <string name="nip">NIP</string>
+    <string name="city">City</string>
+    <string name="classification">Classification</string>
+    <string name="add_customer_classification_dot">Add customer classification...</string>
+    <string name="cancel">Cancel</string>
+    <string name="description">Description</string>
+    <string name="add_customer_classification">Add customer classification</string>
+    <string name="customers_details">Customers details</string>
+    <string name="classification_name">Classification name</string>
+    <string name="classification_description">Classification description</string>
+    <string name="classification_detalis">Classification detalis</string>
+    <string name="complete_all_fields">Please complete all fields!</string>
+    <string name="too_short">The entered data is too short!</string>
+    <string name="nip_10_numbers">NIP must consist of 10 numbers!</string>
+    <string name="no_classifier">No classifier!</string>
+    <string name="initial_data">Initial data cannot be used!</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.assecoapp.ui.fragments.CustomerListFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_customerAddClassificationFragment"
+            app:destination="@id/customerAddClassificationFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_customerAddFragment"
+            app:destination="@id/customerAddFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_customerDetailsFragment"
+            app:destination="@id/customerDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customerAddClassificationFragment"
+        android:name="com.example.assecoapp.ui.fragments.CustomerAddClassificationFragment"
+        android:label="CustomerAddClassificationFragment" >
+        <action
+            android:id="@+id/action_customerAddClassificationFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customerAddFragment"
+        android:name="com.example.assecoapp.ui.fragments.CustomerAddFragment"
+        android:label="CustomerAddFragment" >
+        <action
+            android:id="@+id/action_customerAddFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customerDetailsFragment"
+        android:name="com.example.assecoapp.ui.fragments.CustomerDetailsFragment"
+        android:label="CustomerDetailsFragment" >
+        <action
+            android:id="@+id/action_customerDetailsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
