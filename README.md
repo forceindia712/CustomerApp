@@ -28,7 +28,7 @@
 
 ### Architecture Overview
 
-![architecture](figure/figure1.png)
+![architecture](previews/figure1.png)
 
 - Each layer follows [unidirectional event/data flow](https://developer.android.com/topic/architecture/ui-layer#udf); the UI layer emits user events to the data layer, and the data layer exposes data as a stream to other layers.
 - The data layer is designed to work independently from other layers and must be pure, which means it doesn't have any dependencies on the other layers.
