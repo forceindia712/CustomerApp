@@ -1,7 +1,7 @@
 <h1 align="center">Customer List</h1>
 
 <p align="center">  
-  🧑‍💼 Customer List demonstrates modern Android development with Hilt, Coroutines, Flow, Jetpack (Room, ViewModel), and Material Design based on MVVM architecture.
+  🧑‍💼 Customer List is an application that shows a list of contractors along with their classification. Application built with Jetpack (Room, ViewModel), and Material Design based on MVVM architecture.
 </p>
 
 <p align="center">
