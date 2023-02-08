@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<img src="/previews/screenshot.png"/>
+<img src="/previews/customersApp.png"/>
 </p>
 
 ## Tech stack & Open-source libraries
