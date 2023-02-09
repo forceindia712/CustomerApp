@@ -1,11 +1,11 @@
 <h1 align="center">Customer List</h1>
 
 <p align="center">  
-  🧑‍💼 Customer List is an application that shows a list of contractors along with their classification. Application built with Jetpack (Room, ViewModel), and Material Design based on MVVM architecture.
+  🧑‍💼 Customer List is an application that shows a list of contractors along with their classification. Application built with Jetpack (ViewModel), SQLite Database and Material Design based on MVVM architecture.
 </p>
 
 <p align="center">
-<img src="/previews/screenshot.png"/>
+<img src="/previews/customersApp.png"/>
 </p>
 
 ## Tech stack & Open-source libraries
@@ -28,7 +28,7 @@
 
 ### Architecture Overview
 
-![architecture](figure/figure1.png)
+![architecture](previews/figure1.png)
 
 - Each layer follows [unidirectional event/data flow](https://developer.android.com/topic/architecture/ui-layer#udf); the UI layer emits user events to the data layer, and the data layer exposes data as a stream to other layers.
 - The data layer is designed to work independently from other layers and must be pure, which means it doesn't have any dependencies on the other layers.
@@ -47,4 +47,21 @@ The UI layer consists of UI elements to configure screens that could interact wi
 
 ![architecture](previews/figure3.png)
 
-The data Layer consists of repositories, which include business logic, such as querying data from the local database and requesting remote data from the network. It is implemented as an offline-first source of business logic and follows the [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) principle.<br>
+The data Layer consists of repositories, which include business logic, such as querying data from the local database and requesting remote data from the network. It is implemented as an offline-first source of business logic and follows the [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) principle.
+
+# License
+```xml
+Designed and developed by 2023 forceindia712 (Albert Bilski)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
